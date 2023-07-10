@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title> Quiz </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/fontawsome/css/font-awesome.min.css">
+        
+    </head>
+
+    <body>
+        <!--start quiz Button -->      
+        <div class="start_btn"><button>Start Quiz</button></div>
+
+        <div class="info_box">
+            <div class="info_title">
+                <span>Some Rules of the quiz</span>
+            </div>
+            <div class="info_list">
+                <div class="info">1. You will have only <span> 10 seconds</span> per each question.</div>
+                <div class="info">2. Once you select your answer you can't reselect.</div>
+                <div class="info">3. You can't select any option once time goes off.</div>
+                <div class="info">4. You can't exit from the quiz while you're playing</div>
+                <div class="info">5. You'll get points on the basis of your correct answers.</div>
+                
+            </div>
+            <div class="button">
+                <button class="quit">Exit Quiz</button>
+                <button class="restart"> Continue </button>
+            </div>
+        </div>
+        <!--Quiz box-->
+        <div class="quiz_box">
+            <header>
+                <div class="title">Awesome quiz Application</div>
+                <div class="timer">
+                    <div class="time_text">Time Left</div>
+                    <div class="timer_sec">10</div>
+                </div>
+                
+            </header>
+            <section>
+                <div class="que_text">
+                    <span>1.Which planet has the largest ocean?</span>
+                </div>
+                <div class="option_list">
+                    <div class="option">
+                        <span>Mars</span>
+                        <div class="icon cross"><i class="fa fa-times"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Jupiter</span>
+                        <div class="icon tick"><i class="fa fa-check"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Saturn</span>
+                        <div class="icon cross"><i class="fa fa-times"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Earth</span>
+                        <div class="icon cross"><i class="fa fa-times"></i></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Quiz Box Footer-->
+            <footer>
+                <div class="total_que">
+                    <span><p>2</p>of<p>10</p>Questions</span>
+                </div>
+                <button class="next_btn">Next Question</button>
+            </footer>
+
+        </div>
+        <!--result box-->
+        <div class="result_box">
+            <div class="icon">
+                <i class="fa fa-star"></i>
+            </div>
+            <div class="complete_text">You've completed the Quiz!</div>
+            <div class="score_text">
+                <span>and Sorry, You got only <p> 2</p> out of<p>10</p></span>
+            </div>
+            <div class="button">
+                <button class="restart">Replay Quiz</button>
+                <button class="quit">Quit Quiz</button>
+            </div>
+        </div>
+        <script src="D:\IIT\HTML\CW_1\06_07_2023\js\script.js"></script>
+    </body>
+</html>
